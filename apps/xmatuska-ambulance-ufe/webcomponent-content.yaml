@@ -4,7 +4,7 @@ metadata:
   name: xmatuska-ambulance-ufe-content
 spec:
   microFrontend: xmatuska-ambulance-ufe
-  element: xmatuska-ambulance-wl-list
+  element: xmatuska-ambulance-wl-app
   displayRules:
     - allOf:
       - context-name: main-content
