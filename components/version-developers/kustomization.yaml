@@ -1,7 +1,6 @@
-apiVersion: kustomize.config.k8s.io/v1alpha1  
-kind: Component 
-
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
 images:
 - name: sprowk/xmatuska-ufe
   newName: sprowk/xmatuska-ufe
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-ufe"}
+  newTag: sprowk/xmatuska-ufe:main.20250616.2116 # {"$imagepolicy": "wac-hospital:ambulance-ufe"}
