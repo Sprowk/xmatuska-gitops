@@ -4,4 +4,4 @@ kind: Component
 images:
 - name: sprowk/xmatuska-ufe
   newName: sprowk/xmatuska-ufe
-  newTag: main
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-ufe"}
