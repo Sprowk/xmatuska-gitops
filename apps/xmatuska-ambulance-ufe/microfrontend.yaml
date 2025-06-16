@@ -1,0 +1,8 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: xmatuska-ambulance-ufe
+spec:
+  frontendClass: md-shell
+  service: http://xmatuska-ambulance-ufe.wac-hospital
+  modulePath: build/xmatuska-ufe.esm.js 

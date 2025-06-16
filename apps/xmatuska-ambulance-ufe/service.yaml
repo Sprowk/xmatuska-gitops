@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: xmatuska-ambulance-ufe
+spec:  
+  selector:
+    pod: xmatuska-ambulance-ufe-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: http
