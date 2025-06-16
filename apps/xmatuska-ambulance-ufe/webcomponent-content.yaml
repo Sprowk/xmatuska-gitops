@@ -5,6 +5,11 @@ metadata:
 spec:
   microFrontend: xmatuska-ambulance-ufe
   element: xmatuska-ambulance-wl-app
+  
+  attributes:
+    - name: base-path
+      value: /xmatuska-ambulance-wl/
+
   displayRules:
     - allOf:
       - context-name: main-content
