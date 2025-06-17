@@ -4,3 +4,7 @@ images:
 - name: sprowk/xmatuska-ufe
   newName: sprowk/xmatuska-ufe
   newTag: main.20250616.2334 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+
+- name: sprowk/xmatuska-webapi
+  newName: sprowk/xmatuska-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
