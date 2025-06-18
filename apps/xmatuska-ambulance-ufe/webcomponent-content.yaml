@@ -11,6 +11,8 @@ spec:
       value: /xmatuska-ambulance-wl/
     - name: api-base
       value: http://localhost:30081/api
+      value: xmatuska-ambulance-h0e4a4ffd0dyf8en.westeurope-01.azurewebsites.net:30082/api
+
     - name: ambulance-id
       value: bobulova
 

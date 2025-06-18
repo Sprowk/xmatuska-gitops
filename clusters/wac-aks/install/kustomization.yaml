@@ -12,7 +12,10 @@ labels:
 
 resources:
 - ../../../apps/xmatuska-ambulance-ufe
+- ../../../apps/xmatuska-ambulance-webapi
 
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-release
