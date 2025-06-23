@@ -4,8 +4,8 @@ metadata:
   name: xmatuska-local-prepare
   namespace: wac-hospital
 spec:
-  wait: true
   interval: 120s
+  wait: true
   path: clusters/localhost/prepare
   prune: true
   sourceRef:

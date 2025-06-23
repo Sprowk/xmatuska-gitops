@@ -4,8 +4,8 @@ metadata:
   name: xmatuska-cd
   namespace: wac-hospital
 spec:
-  wait: true
   interval: 42s
+  wait: true
   path: clusters/localhost
   prune: true
   sourceRef:

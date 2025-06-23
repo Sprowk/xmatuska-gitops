@@ -4,11 +4,11 @@ metadata:
   name: xmatuska-local-install
   namespace: wac-hospital
 spec:
+  interval: 120s
   wait: true
   force: true
   dependsOn:
-  - name: xmatuska-local-prepare
-  interval: 120s
+    - name: xmatuska-local-prepare
   path: clusters/localhost/install
   prune: true
   sourceRef:
