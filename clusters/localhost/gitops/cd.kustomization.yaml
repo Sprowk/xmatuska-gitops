@@ -11,3 +11,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: xmatuska-gitops-repo
+  dependsOn:
+    - name: xmatuska-local-prepare
