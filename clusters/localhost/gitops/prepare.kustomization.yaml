@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: xmatuska-prepare
+  name: xmatuska-local-prepare
   namespace: wac-hospital
 spec:
   wait: true
