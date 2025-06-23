@@ -1,13 +1,13 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
-  name: image-updater
+  name: xmatuska-image-updater
   namespace: wac-hospital
 spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: gitops-repo # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
+    name: xmatuska-gitops-repo # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
   git:
     checkout:
       ref:

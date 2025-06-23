@@ -1,7 +1,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
-  name: ambulance-webapi
+  name: xmatuska-ambulance-webapi
   namespace: wac-hospital
 spec:
   image: sprowk/xmatuska-webapi

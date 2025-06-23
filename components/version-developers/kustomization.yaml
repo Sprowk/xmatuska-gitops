@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: sprowk/xmatuska-ufe
   newName: sprowk/xmatuska-ufe
-  newTag: main.20250618.1234 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"} - toto sa mení automaticky
+  newTag: main.20250618.1234 # {"$imagepolicy": "wac-hospital:xmatuska-ambulance-ufe:tag"}
 - name: sprowk/xmatuska-webapi
-  newName: sprowk/xmatuska-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main.20250618.2242 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newName: sprowk/xmatuska-webapi # {"$imagepolicy":  "wac-hospital:xmatuska-ambulance-webapi:name"}
+  newTag: main.20250618.2242 # {"$imagepolicy": "wac-hospital:xmatuska-ambulance-webapi:tag"}
