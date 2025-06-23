@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: xmatuska-ambulance-webapi
+  name: xmatuska-ambulance-ufe
 spec:
   type: NodePort
   ports:
     - name: http
       port: 80
-      nodePort: 30081
+      nodePort: 30080

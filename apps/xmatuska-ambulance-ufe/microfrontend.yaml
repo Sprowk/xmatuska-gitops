@@ -4,5 +4,5 @@ metadata:
   name: xmatuska-ambulance-ufe
 spec:
   frontendClass: md-shell
-  service: http://xmatuska-ambulance-ufe.wac-hospital
+  service: http://localhost:30080
   modulePath: build/xmatuska-ufe.esm.js 
