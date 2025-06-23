@@ -10,8 +10,8 @@ resources:
 - ../../../apps/xmatuska-ambulance-ufe
 - ../../../apps/xmatuska-ambulance-webapi
 
-patches:
-- path: patches/ambulance-webapi.service.yaml
+#patches:
+#- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
