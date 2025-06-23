@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: xmatuska-ambulance-ufe          # musí sedieť s existujúcou službou
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      nodePort: 30080                  # voľný port na localhoste

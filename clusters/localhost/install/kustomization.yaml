@@ -11,9 +11,9 @@ resources:
   - ../../../apps/xmatuska-ambulance-ufe
   - ../../../apps/xmatuska-ambulance-webapi
 
-#  ⬇⬇  POZOR – použijeme starší názov poľa  ⬇⬇
 patchesStrategicMerge:
   - patches/ambulance-webapi.service.yaml
+  - patches/ambulance-ufe.service.yaml
 
 components:
   - ../../../components/version-developers
